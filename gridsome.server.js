@@ -4,10 +4,13 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const settings = require('./gridsome.config');
 
 module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+  api.loadSource(async store => {
+    Object.keys(settings.config).forEach(key => {
+      store.addMetadata(key, settings.config[key]);
+    })
   })
 
   api.createPages(({ createPage }) => {

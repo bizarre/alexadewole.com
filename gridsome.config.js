@@ -5,10 +5,14 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Alex Adewole',
+  config: {
+    name: 'Alexander Adewole',
+    tagline: 'H. s. sapien'
+  },
   plugins: [
     {
-      use: "gridsome-plugin-tailwindcss"
+      use: 'gridsome-plugin-tailwindcss'
     }
   ]
 }
