@@ -5,10 +5,19 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Alex Adewole',
   config: {
     name: 'Alexander Adewole',
-    tagline: 'H. s. sapien'
+    tagline: 'H. s. sapien',
+    social: [
+      {
+        url: "https://github.com/adewole",
+        icon: "github.svg"
+      },
+      {
+        url: "mailto:alex@bizar.re",
+        icon: "mail.svg"
+      }
+    ]
   },
   plugins: [
     {
