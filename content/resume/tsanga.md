@@ -1,7 +1,7 @@
 ---
 id: tsanga
 org: Tsanga, Inc.
-position: Chief Technical Officer
+position: Founder
 period: February 2020 to present time
 color: "#B9CABB"
 ---

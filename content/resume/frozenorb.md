@@ -1,7 +1,6 @@
 ---
 id: frozenorb
 org: FrozenOrb, LLC
-position: Jr. Programmer
 period: June 2016 to July 2017
 color: "#B6CBCF"
 ---

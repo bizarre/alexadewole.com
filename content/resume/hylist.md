@@ -1,7 +1,6 @@
 ---
 id: hylist
 org: Hylist Games, LLC
-position: Software Engineer
 period: August 2017 to April 2020
 color: "#C1B6CF"
 ---

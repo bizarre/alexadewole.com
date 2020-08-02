@@ -13,7 +13,6 @@ query {
       node {
         id
         name
-        weight
         positions {
           id
           org
