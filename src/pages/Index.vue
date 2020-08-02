@@ -2,7 +2,7 @@
   <Layout>
     <div class="flex flex-wrap flex-col-reverse md:flex-row">
       <div class="text-gray-500 light:text-gray-700 md:w-1/2 mt-6 md:mt-10">
-        <div class="prose text-gray-500" v-html="$page.bio.content"/>
+        <div class="prose text-gray-500 light:text-gray-700" v-html="$page.bio.content"/>
         <div class="mt-6 mb-3 md:mb-0 flex text-gray-700">
           <a :href="`https://twitter.com/${$page.metadata.social.twitter}`" class="opacity-50 hover:opacity-100 transition duration-200">
             <jam-twitter class="fill-current"/>
