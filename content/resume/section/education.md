@@ -1,5 +1,5 @@
 ---
+id: 0
 name: "Education"
-weight: 0
 positions: ["college"]
 ---

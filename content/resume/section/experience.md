@@ -1,5 +1,5 @@
 ---
+id: 1
 name: "Experience"
-weight: 1
 positions: ["tsanga", "hylist", "frozenorb"]
 ---

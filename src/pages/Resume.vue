@@ -8,7 +8,7 @@
 
 <page-query>
 query {
-	sections: allSection(sortBy: "weight", order: ASC) {
+	sections: allSection(sortBy: "id", order: ASC) {
     edges {
       node {
         id

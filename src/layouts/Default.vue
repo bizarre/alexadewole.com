@@ -14,7 +14,7 @@
 <script>
 import SiteHeader from '~/components/Header'
 
-export default {
+export default { 
   components: { SiteHeader }
 }
 </script>
