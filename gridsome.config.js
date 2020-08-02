@@ -15,6 +15,11 @@ module.exports = {
       email: 'alex@bizar.re'
     }
   },
+
+  templates: {
+    Post: '/:title'
+  },
+
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'
@@ -42,6 +47,18 @@ module.exports = {
         refs: {
           positions: {
             typeName: "Position"
+          }
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Post',
+        path: 'content/posts/*.md',
+        refs: {
+          positions: {
+            typeName: "Post"
           }
         }
       }

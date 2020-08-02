@@ -4,6 +4,18 @@ const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: [],
   theme: {
+    typography: (theme) => ({
+      default: {
+        css: {
+          color: 'inherit',
+          h1: {
+            color: 'inherit',
+            fontWeight: '500'
+          },
+        }
+      }
+    }),
+
     extend: {
       colors: {
         gray: {
