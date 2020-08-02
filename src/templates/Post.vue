@@ -32,7 +32,7 @@ query Post ($id: ID!) {
   post: post (id: $id) {
     title
     path
-    date (format: "MMMM D, YYYY")
+    date (format: "dddd, MMMM Do, YYYY")
     description
     content
   }

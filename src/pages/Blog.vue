@@ -13,7 +13,7 @@ query {
       node {
         id
         title
-        date(format: "MMMM D, YYYY")
+        date(format: "MMMM Do, YYYY")
         description
         path
       }
