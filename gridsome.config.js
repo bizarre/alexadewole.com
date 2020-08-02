@@ -8,20 +8,23 @@ module.exports = {
   config: {
     name: 'Alexander Adewole',
     tagline: 'H. s. sapien',
-    social: [
-      {
-        url: "https://github.com/adewole",
-        icon: "github.svg"
-      },
-      {
-        url: "mailto:alex@bizar.re",
-        icon: "mail.svg"
-      }
-    ]
+    social: {
+      twitter: 'alex_adewole',
+      github: 'adewole',
+      linkedin: 'alex-adewole',
+      email: 'alex@bizar.re'
+    }
   },
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'
-    }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'About',
+        path: 'content/about.md'
+      }
+    },
   ]
 }

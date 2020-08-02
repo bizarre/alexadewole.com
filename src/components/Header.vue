@@ -1,13 +1,13 @@
 <template>
-    <div class="flex justify-between w-full">
+    <div class="flex flex-col-reverse md:flex-row justify-between w-full">
         <div>
-            <h1 class="text-2xl text-white font-medium">{{ $static.metadata.name }}</h1>
-            <h2 class="text-gray-500">{{ $static.metadata.tagline }}</h2>
+            <h1 class="text-2xl text-white font-medium light:text-black">{{ $static.metadata.name }}</h1>
+            <h2 class="text-gray-400">{{ $static.metadata.tagline }}</h2>
         </div>
-        <ul class="flex text-gray-500 font-bold uppercase tracking-widest text-sm items-start">
-            <g-link to="/" tag="li" class="transition duration-200 hover:opacity-50 cursor-pointer">About me</g-link>
-            <g-link to="/blog" tag="li" class="ml-4 transition duration-200 hover:opacity-50 cursor-pointer">Blog</g-link>
-            <g-link to="/resume" tag="li" class="ml-4 transition duration-200 hover:opacity-50 cursor-pointer">Resume</g-link>
+        <ul class="flex pb-2 md:pb-0 text-gray-400 font-bold uppercase tracking-widest text-sm items-start">
+            <g-link to="/" tag="li" class="transition opacity-25 light:opacity-50 duration-200 hover:opacity-75 cursor-pointer">About me</g-link>
+            <g-link to="/blog" tag="li" class="ml-4 transition opacity-25 light:opacity-50 duration-200 hover:opacity-75 cursor-pointer">Blog</g-link>
+            <g-link to="/resume" tag="li" class="ml-4 transition opacity-25 light:opacity-50 duration-200 hover:opacity-75 cursor-pointer">Resume</g-link>
         </ul>
     </div>
 </template>
@@ -22,10 +22,6 @@ query {
 </static-query>
 
 <style scoped>
-li {
-    opacity: 0.25;
-}
-
 li.active--exact {
     opacity: 0.8;
 }
