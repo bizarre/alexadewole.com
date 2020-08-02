@@ -26,5 +26,25 @@ module.exports = {
         path: 'content/about.md'
       }
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Position',
+        path: 'content/resume/*.md',
+        ignore: ['content/resume/section/*.md']
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Section',
+        path: 'content/resume/section/*.md',
+        refs: {
+          positions: {
+            typeName: "Position"
+          }
+        }
+      }
+    }
   ]
 }

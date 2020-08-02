@@ -10,7 +10,9 @@ module.exports = {
           ...colors.gray,
           '400': '#A0A2AF',
           '500': '#B9BCCA',
-          '700': '#646670'
+          '600': '#8B8F9B',
+          '700': '#646670',
+          '800': '#585B66'
         }
       },
       screens: {
@@ -24,5 +26,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
