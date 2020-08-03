@@ -5,6 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
+  siteName: 'Alex Adewole',
   config: {
     name: 'Alexander Adewole',
     tagline: 'H. s. sapien',

@@ -2,8 +2,8 @@
   <Focused>
     <div class="flex flex-wrap p-5 mb-10 md:mb-40">
       <div class="m-auto w-full lg:w-10/12">
-        <div id="post" class="flex flex-wrap md:justify-center">
-          <div class="text-center leading-tight relative w-full text-gray-700">
+        <div class="flex flex-wrap md:justify-center">
+          <div class="text-center leading-snug relative w-full text-gray-700">
             <g-link to="/blog">
               <jam-close class="absolute md:fixed left-0 top-0 md:m-10 w-12 h-12 fill-current opacity-50 transition duration-300 hover:opacity-75"></jam-close>
             </g-link>

@@ -20,10 +20,13 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body {
   min-width: 100vw;
   min-height: 100vh;
   background: linear-gradient(155.36deg, #11101D 28.15%, #142124 59.77%, #1C1D10 91.4%);
+  font-family: 'Inter', sans-serif;
 }
 
 @media(prefers-color-scheme: light) {

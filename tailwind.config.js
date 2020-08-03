@@ -8,10 +8,33 @@ module.exports = {
       default: {
         css: {
           color: 'inherit',
+          strong: {
+            color: 'inherit'
+          },
           h1: {
             color: 'inherit',
             fontWeight: '500'
           },
+          h2: {
+            color: 'inherit',
+            fontWeight: '500'
+          },
+          h3: {
+            color: 'inherit',
+            fontWeight: '500'
+          },
+          blockquote: {
+            color: 'inherit'
+          },
+          a: {
+            color: '#8B8F9B'
+          },
+          code: {
+            color: '#8B8F9B'
+          },
+          th: {
+            color: '#8B8F9B'
+          }
         }
       }
     }),
