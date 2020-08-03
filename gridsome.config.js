@@ -5,6 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
+  siteUrl: 'https://www.alexadewole.com',
   siteName: 'Alex Adewole',
   config: {
     name: 'Alexander Adewole',
